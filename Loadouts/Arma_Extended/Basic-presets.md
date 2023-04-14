@@ -11,7 +11,6 @@ for "_i" from 1 to 5 do {this addItemToUniform "ACE_elasticBandage";};
 ### Basic vest
 ```sqf
 this addItemToVest "ACE_NVG_Wide_Black";
-this addItemToVest "acc_pointer_IR";
 for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
 for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
 ```
