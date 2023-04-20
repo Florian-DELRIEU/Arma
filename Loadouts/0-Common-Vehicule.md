@@ -1,5 +1,8 @@
 ### Medical Vehicule
 ```sqf
+clearMagazineCargoGlobal _this;
+clearWeaponCargoGlobal _this;
+clearItemCargoGlobal _this;
 this addItemCargo ["ACE_splint",15];
 this addItemCargo ["ACE_epinephrine",50];
 this addItemCargo ["ACE_adenosine",30];
