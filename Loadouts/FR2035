@@ -1,0 +1,62 @@
+```sqf
+[[
+[ // Arme principale
+"arifle_SPAR_02_snd_F", // Nom de l'arme
+"", // Accessoire de bouche
+"rhsusf_acc_anpeq15_wmx", // Viseur laser
+"optic_Arco", // Viseur optique
+["rhs_mag_30Rnd_556x45_Mk318_SCAR_Ranger", 30], // Chargeurs et munitions
+[], // Grenades
+"bipod_02_F_arid" // Bipied
+],
+[], // Arme secondaire
+[ // Tenue
+"R3F_PAMAS", // Arme de poing
+"", // Accessoire d'arme de poing
+"", // Viseur d'arme de poing
+"", // Accessoire de bouche pour l'arme de poing
+["R3F_15Rnd_9x19_PAMAS", 15], // Chargeurs et munitions pour l'arme de poing
+[], // Grenades
+"" // Bipied pour l'arme de poing
+],
+[ // Équipement vestimentaire
+"R3F_uniform_f1_DA", // Uniforme
+[ // Équipement sur l'uniforme
+["ACE_morphine", 5], // Morphine
+["ACE_Flashlight_KSF1", 1], // Lampe torche
+["ACE_EarPlugs", 1], // Boules Quies
+["ACE_MapTools", 1], // Outils de cartographie
+["ACE_IR_Strobe_Item", 1], // Strobe infrarouge
+["ACE_elasticBandage", 5] // Bandages élastiques
+]
+],
+[ // Équipement tactique
+"R3F_veste_APSO_TAN", // Gilet tactique
+[ // Équipement sur le gilet tactique
+["ACE_NVG_Wide_Black", 1], // Vision nocturne
+["R3F_SILENCIEUX_HK416_DES", 1], // Silencieux pour l'arme principale
+["R3F_15Rnd_9x19_PAMAS", 2, 15], // Chargeurs et munitions pour l'arme de poing
+["HandGrenade", 2, 1], // Grenades à fragmentation
+["SmokeShell", 2, 1] // Fumigènes
+]
+],
+[ // Sac à dos
+"B_Kitbag_cbr", // Sac à dos
+[ // Équipement dans le sac à dos
+["150Rnd_556x45_Drum_Sand_Mag_F", 5, 150], // Chargeurs et munitions pour l'arme principale
+["rhs_mag_30Rnd_556x45_Mk318_SCAR_Ranger", 5, 30], // Chargeurs et munitions pour l'arme principale
+["30Rnd_556x45_Stanag_green", 1, 30] // Chargeurs et munitions pour l'arme principale
+]
+],
+"R3F_casque_felin_DA", // Casque
+"", // Accessoire de casque
+[ // Équipement divers
+"Binocular", // Jumelles
+"", // GPS
+"","", // Montre et boussole
+[],[], // Autres équipements divers
+"ItemMap", "ItemGPS", "ItemRadio", "ItemCompass", "ItemWatch", "" // Équipements de base
+],
+[] // Groupe
+]
+```
