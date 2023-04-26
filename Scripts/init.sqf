@@ -1,4 +1,3 @@
-comment "Ajoute un stuff de base pour toutes les unités du jeu
 {
     for "_i" from 1 to 5 do { _x addItemToUniform "ACE_morphine"; };
     _x addItemToUniform "ACE_Flashlight_KSF1";
