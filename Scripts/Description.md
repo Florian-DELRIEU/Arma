@@ -1,4 +1,5 @@
 ## Classic Descritption file
+### HEAD Mission Briefing
 ```sqf
 author = "Florian";
 onLoadName = "Mission name";
@@ -13,6 +14,12 @@ class Header
 };
 ```
 ![2013-03-08_00004](https://user-images.githubusercontent.com/47951736/235249103-6283b0c6-8bf8-4b57-8927-24cbff325537.jpeg)
+### Settings
+```
+respawn = "BASE"
+```
+
 
 ## Sources
 - see documentation about [description file](https://community.bistudio.com/wiki/Description.ext)
+- [Respawn settings](https://community.bistudio.com/wiki/Arma_3:_Respawn)
