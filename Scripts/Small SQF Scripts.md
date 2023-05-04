@@ -16,3 +16,4 @@ class Extended_Init_EventHandlers {
 ```
 - A mettre dans le fichier `description.ext` de la mission
 - Execute le fichier `myscript.sqf` quand une unité de classe `Man` est spawnée
+- see [link](http://alivemod.com/wiki/index.php/Script_Snippets#Spawn_.26_Profile_Group_Script_By_Jman:~:text=%3B%0A%7D%3B-,Adding%20Custom%20Inits%20to%20Spawned%20Units,_this%20call%20(compile%20preprocessFileLineNumbers%20%27my_script.sqf%27)%22%3B%0A%20%7D%3B%0A%7D%3B,-This%20is%20an)
