@@ -1,9 +1,14 @@
-# ACE scripts
-### add ACE arsenal on object
+# Arsenal
+- ### Add ACE arsenal on object
 ```sqf
 [this, true] call ace_arsenal_fnc_initBox;
 ```
-- copier dans l'init de n'importe quel objet. Ne marche pas sur soi même
+copier dans l'init de n'importe quel objet. Ne marche pas sur soi même
+
+- ### Add BI Arsenal on object
+```sqf
+ ["AmmoboxInit",[_this,true]] call BIS_fnc_arsenal
+```
 
 # Description files
 ### custom init for spawned units
