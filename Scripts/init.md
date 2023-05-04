@@ -1,5 +1,6 @@
 ## for resistance scenario
 Les joueurs commencent sans rien mais sont `ingénieur` et `Medic` et ont l'Arsenal
+### `init.sqf`
 ```sqf
 { 
 if (isPlayer _x) then {
