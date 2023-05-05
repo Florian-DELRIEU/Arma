@@ -10,6 +10,16 @@ copier dans l'init de n'importe quel objet. Ne marche pas sur soi même
  ["AmmoboxInit",[_this,true]] call BIS_fnc_arsenal
 ```
 
+# Event Handlers
+Execute un code quand quelqu'un se fait tuer
+```sqf
+this addEventHandler ["Killed", {
+	params ["_unit", "_killer"];
+	systemChat format ["%1 has been killed by %2.", _unit, _killer];
+}];
+```
+see [link](https://community.bistudio.com/wiki/addEventHandler)
+
 # Description files
 ### custom init for spawned units
 ```sqf
