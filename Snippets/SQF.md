@@ -10,6 +10,12 @@ copier dans l'init de n'importe quel objet. Ne marche pas sur soi même
  ["AmmoboxInit",[_this,true]] call BIS_fnc_arsenal
 ```
 
+# Global SQF Snippets
+ - ### Execute SQF file in directory
+```sqf
+execVM "filename.sqf";
+```
+
 # Event Handlers
 Execute un code quand quelqu'un se fait tuer
 ```sqf
