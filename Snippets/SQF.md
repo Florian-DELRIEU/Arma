@@ -31,6 +31,7 @@ see [link](https://community.bistudio.com/wiki/addEventHandler)
 
 ## Event script
 ![image](https://github.com/Florian-DELRIEU/Games/assets/47951736/4779be8d-3063-4c17-b100-09f8161999ae)
+- see [link](https://stokys.github.io/web/ba/index.html#basic:~:text=Event%20Scripts%20are,menu%20is%20activated.)
 
 
 # Description files
