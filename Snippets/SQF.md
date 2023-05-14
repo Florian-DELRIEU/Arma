@@ -15,7 +15,10 @@ copier dans l'init de n'importe quel objet. Ne marche pas sur soi même
 ```sqf
 execVM "filename.sqf";
 ```
-
+- ### Show format text
+```sqf
+systemchat format ["%1",nomdelavariable];
+```
 # Event Handlers
 Execute un code quand quelqu'un se fait tuer
 ```sqf
