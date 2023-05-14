@@ -29,6 +29,10 @@ this addEventHandler ["Killed", {
 ```
 see [link](https://community.bistudio.com/wiki/addEventHandler)
 
+## Event script
+![image](https://github.com/Florian-DELRIEU/Games/assets/47951736/4779be8d-3063-4c17-b100-09f8161999ae)
+
+
 # Description files
 ### custom init for spawned units
 ```sqf
