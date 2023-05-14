@@ -1,10 +1,10 @@
 ## Classic Descritption file
 ### HEAD Mission Briefing
 ```sqf
-author = "Florian";
-onLoadName = "Mission name";
-onLoadMission = "Mission description.";
-loadScreen = "images\loadScreen.paa";
+author			= "Varanon";
+onLoadName		= "Point Insertion";
+onLoadMission	= "A group of NATO soldiers is tasked with sabotaging a coastal defense.";
+loadScreen		= "images\loadScreen.paa";
 
 class Header
 {
