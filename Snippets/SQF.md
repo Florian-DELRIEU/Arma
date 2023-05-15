@@ -1,21 +1,31 @@
 # Arsenal
-- ### Add ACE arsenal on object
+### Add ACE arsenal on object
 ```sqf
 [this, true] call ace_arsenal_fnc_initBox;
 ```
 copier dans l'init de n'importe quel objet. Ne marche pas sur soi même
 
-- ### Add BI Arsenal on object
+### Add BI Arsenal on object
 ```sqf
  ["AmmoboxInit",[_this,true]] call BIS_fnc_arsenal
 ```
 
 # Global SQF Snippets
- - ### Execute SQF file in directory
+ ### Execute SQF file in directory
 ```sqf
 execVM "filename.sqf";
 ```
-- ### Show format text
+### Execute with parameters
+
+```sqf
+[player, 0.75] execVM "setDamage.sqf";
+```
+- exemple of `setDamage.sqf` file
+```sqf
+params ["_unit", "_damage"];
+_unit setDamage _damage;
+```
+### Show format text
 ```sqf
 systemchat format ["%1",nomdelavariable];
 ```
