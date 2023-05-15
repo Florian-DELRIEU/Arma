@@ -1,4 +1,5 @@
 ## Classic Descritption file
+
 ### HEAD Mission Briefing
 ```sqf
 author			= "Varanon";
@@ -14,8 +15,18 @@ class Header
 };
 ```
 ![2013-03-08_00004](https://user-images.githubusercontent.com/47951736/235249103-6283b0c6-8bf8-4b57-8927-24cbff325537.jpeg)
-### Settings
+
+### Scripts
+```sqf
+class Extended_Init_EventHandlers {
+ class Man {
+  init = "_this call (compile preprocessFileLineNumbers 'spawn_event.sqf')";
+ };
+};
 ```
+
+### Settings
+```sqf
 respawn = "BASE"
 ```
 
