@@ -13,7 +13,8 @@ copier dans l'init de n'importe quel objet. Ne marche pas sur soi même
 # Units
 ```sqf
 getAllUnitTraits player
-
+```
+```sqf
 /* can return:
 [
 	["Medic", false],
