@@ -10,6 +10,24 @@ copier dans l'init de n'importe quel objet. Ne marche pas sur soi même
  ["AmmoboxInit",[_this,true]] call BIS_fnc_arsenal
 ```
 
+# Units
+```sqf
+getAllUnitTraits player
+
+/* can return:
+[
+	["Medic", false],
+	["Engineer", false],
+	["ExplosiveSpecialist", false],
+	["UavHacker", false],
+	["CamouflageCoef", 1],
+	["AudibleCoef", 1],
+	["LoadCoef", 1],
+	["test", "custom"]
+]
+*/
+```
+
 # Global SQF Snippets
  ### Execute SQF file in directory
 ```sqf
