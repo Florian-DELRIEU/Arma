@@ -1,8 +1,3 @@
-
-
-[west, "WEST1"] call BIS_fnc_addRespawnInventory;
-
-
 class CfgRespawnInventory
 {
     class SquadLeader
