@@ -1,0 +1,19 @@
+
+
+[west, "WEST1"] call BIS_fnc_addRespawnInventory;
+
+
+class CfgRespawnInventory
+{
+    class SquadLeader
+    {
+        vehicule = "B_Soldier_SL_F";
+        displayName = "Leader"
+    }
+
+    class BasicSoldier
+    {
+        vehicule = "B_Soldier_F";
+        displayName = "Soldier"
+    }
+};
