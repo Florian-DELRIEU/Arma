@@ -2,6 +2,7 @@ var_group_list = groups west;
 
 {
 	var_current_group = _x;
+	systemchat format ["Current group %1",var_current_group];
 	var_unit = units var_current_group;
 	var_leader = leader var_current_group;
 	
@@ -10,7 +11,7 @@ var_group_list = groups west;
 	} foreach var_unit;
 	
 	systemchat "disjoin group";
-	sleep 5;
+	sleep 1;
 	
 	{
 		[_x] join var_leader;
