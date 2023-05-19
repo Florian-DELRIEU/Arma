@@ -4,8 +4,8 @@
 	
 	var_current_unit = _x;
 
-	var_ace_medic = ("ace_medical_medicclass" in allvariables var_current_unit) or (var_current_unit getunittrait "Medic" == false);
-	var_BIS_medic = !("ace_medical_medicclass" in allvariables var_current_unit) or (var_current_unit getunittrait "Medic" == true);
+	var_ace_medic = ("ace_medical_medicclass" in allvariables var_current_unit) and (var_current_unit getunittrait "Medic" == false);
+	var_BIS_medic = !("ace_medical_medicclass" in allvariables var_current_unit) and (var_current_unit getunittrait "Medic" == true);
 
 	if var_ace_medic then {
 		
