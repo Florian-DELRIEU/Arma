@@ -1,6 +1,6 @@
-systemChat format ["Initializing class of %1 ...", _x];
+current_unit = _this select 0;
 
-current_unit = _x;
+systemChat format ["Initializing class of %1 ...", current_unit];
 
 is_ACE_medic = !isNil((current_unit getVariable "ace_medical_medicclass"))
              && (current_unit getVariable "ace_medical_medicclass" != 0);
