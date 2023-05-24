@@ -4,6 +4,6 @@ ajoute une valeur de ressources a un objet
    - _filet de levage (bidons)_ : `fuel`
    - _filet de levage (caisse)_ : `ammo`
    - _filet de levage (OTAN)_ : `supply`
-```
+```sqf
 _this setvariable ["kp_liberation_crate_value",100];
 ```
